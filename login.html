@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Form | OdinProject</title>
+    <link rel="stylesheet" href="style/general.css" />
+    <link rel="stylesheet" href="style/signup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <img src="image/login-bg.jpg" class="login-bg" alt="" />
+        <div class="logo-container">
+          <img src="image/odin-lined.png" alt="" class="odin-logo" />
+        </div>
+      </div>
+      <div class="right">
+        <div class="toptext">
+          <p>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            now to get started
+          </p>
+          <p>You Know you want to.</p>
+        </div>
+        <form action="#">
+          <div class="form-container">
+            <p class="form-header">Let's Do This!</p>
+
+            <div class="form-top-inputs f">
+              <div class="text-box">
+                <label for="fname">FIRST NAME</label>
+                <input type="text" />
+              </div>
+              <div class="text-box">
+                <label for="lname">LAST NAME</label>
+                <input type="text" />
+              </div>
+            </div>
+            <div class="form-middle-inputs f">
+              <div class="text-box">
+                <label for="email">EMAIL</label>
+                <input type="text" />
+              </div>
+              <div class="text-box">
+                <label for="lname">PHONE NUMBER</label>
+                <input type="text" />
+              </div>
+            </div>
+            <div class="form-bottom-inputs f">
+              <div class="text-box password">
+                <label for="passowrd">PASSWORD</label>
+                <input type="text" />
+                <p class="error">*passowrd does not match</p>
+              </div>
+              <div class="text-box confirm">
+                <label for="confirm">CONFIRM PASSWORD</label>
+                <input type="text" />
+              </div>
+            </div>
+          </div>
+          <button type="submit">Create Account</button>
+
+          <p class="foot">Already have an account? <a href="#">Log In</a></p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
